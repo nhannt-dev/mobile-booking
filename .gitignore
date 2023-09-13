@@ -1,0 +1,4 @@
+/server/.env
+/server/.vercel
+/server/node_modules
+/server/vendor
