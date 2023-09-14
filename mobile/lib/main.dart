@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:mobile/main_layout.dart';
 import 'package:mobile/screens/auth.dart';
+import 'package:mobile/screens/booking.dart';
+import 'package:mobile/screens/doctor_details.dart';
+import 'package:mobile/screens/success_booked.dart';
 import 'package:mobile/utils/config.dart';
 
 void main() {
@@ -42,7 +45,10 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => const AuthPage(),
-        'main': (context) => const MainLayout()
+        'main': (context) => const MainLayout(),
+        'doc_details': (context) => const DoctorDetails(),
+        'booking_page': (context) => const BookingPage(),
+        'success_booking': (context) => const SuccessBooked(),
       },
     );
   }

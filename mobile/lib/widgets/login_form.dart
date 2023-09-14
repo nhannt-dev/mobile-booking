@@ -60,9 +60,7 @@ class _LoginFormState extends State<LoginForm> {
           Button(
             width: double.infinity,
             title: 'Sign In',
-            onPressed: () {
-              Navigator.of(context).pushNamed('main');
-            },
+            onPressed: () => Navigator.of(context).pushNamed('main'),
             disable: false
           )
         ],
