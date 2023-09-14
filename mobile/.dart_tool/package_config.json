@@ -33,7 +33,7 @@
     },
     {
       "name": "collection",
-      "rootUri": "file:///C:/Users/pc/AppData/Local/Pub/Cache/hosted/pub.dev/collection-1.17.1",
+      "rootUri": "file:///C:/Users/pc/AppData/Local/Pub/Cache/hosted/pub.dev/collection-1.17.2",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -147,15 +147,15 @@
     },
     {
       "name": "matcher",
-      "rootUri": "file:///C:/Users/pc/AppData/Local/Pub/Cache/hosted/pub.dev/matcher-0.12.15",
+      "rootUri": "file:///C:/Users/pc/AppData/Local/Pub/Cache/hosted/pub.dev/matcher-0.12.16",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "material_color_utilities",
-      "rootUri": "file:///C:/Users/pc/AppData/Local/Pub/Cache/hosted/pub.dev/material_color_utilities-0.2.0",
+      "rootUri": "file:///C:/Users/pc/AppData/Local/Pub/Cache/hosted/pub.dev/material_color_utilities-0.5.0",
       "packageUri": "lib/",
-      "languageVersion": "2.13"
+      "languageVersion": "2.17"
     },
     {
       "name": "meta",
@@ -279,9 +279,9 @@
     },
     {
       "name": "source_span",
-      "rootUri": "file:///C:/Users/pc/AppData/Local/Pub/Cache/hosted/pub.dev/source_span-1.9.1",
+      "rootUri": "file:///C:/Users/pc/AppData/Local/Pub/Cache/hosted/pub.dev/source_span-1.10.0",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "2.18"
     },
     {
       "name": "stack_trace",
@@ -315,7 +315,7 @@
     },
     {
       "name": "test_api",
-      "rootUri": "file:///C:/Users/pc/AppData/Local/Pub/Cache/hosted/pub.dev/test_api-0.5.1",
+      "rootUri": "file:///C:/Users/pc/AppData/Local/Pub/Cache/hosted/pub.dev/test_api-0.6.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -330,6 +330,12 @@
       "rootUri": "file:///C:/Users/pc/AppData/Local/Pub/Cache/hosted/pub.dev/vector_math-2.1.4",
       "packageUri": "lib/",
       "languageVersion": "2.14"
+    },
+    {
+      "name": "web",
+      "rootUri": "file:///C:/Users/pc/AppData/Local/Pub/Cache/hosted/pub.dev/web-0.1.4-beta",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
     },
     {
       "name": "win32",
@@ -350,7 +356,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-09-13T14:44:29.619737Z",
+  "generated": "2023-09-14T01:44:38.557077Z",
   "generator": "pub",
-  "generatorVersion": "3.0.6"
+  "generatorVersion": "3.1.2"
 }

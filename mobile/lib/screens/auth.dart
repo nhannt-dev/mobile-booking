@@ -91,10 +91,10 @@ class _AuthPageState extends State<AuthPage> {
                     ),
                   ),
                   const Text(
-                    'Sign Up',
+                    ' Sign Up',
                     style: TextStyle(
                       fontSize: 16,
-                      fontWeight: FontWeight.normal,
+                      fontWeight: FontWeight.bold,
                       color: Colors.black
                     ),
                   )
