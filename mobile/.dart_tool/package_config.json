@@ -116,6 +116,12 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "http",
+      "rootUri": "file:///C:/Users/pc/AppData/Local/Pub/Cache/hosted/pub.dev/http-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "http_parser",
       "rootUri": "file:///C:/Users/pc/AppData/Local/Pub/Cache/hosted/pub.dev/http_parser-4.0.2",
       "packageUri": "lib/",
@@ -356,7 +362,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-09-14T01:44:38.557077Z",
+  "generated": "2023-09-15T09:07:50.085779Z",
   "generator": "pub",
   "generatorVersion": "3.1.2"
 }
