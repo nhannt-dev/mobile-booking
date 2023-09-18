@@ -1,12 +1,12 @@
+import 'package:doctor_appointment_app/components/button.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:mobile/widgets/button.dart';
 
-class SuccessBooked extends StatelessWidget {
-const SuccessBooked({ Key? key }) : super(key: key);
+class AppointmentBooked extends StatelessWidget {
+  const AppointmentBooked({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
         child: Column(
@@ -14,7 +14,7 @@ const SuccessBooked({ Key? key }) : super(key: key);
           children: <Widget>[
             Expanded(
               flex: 3,
-              child: Lottie.asset('assets/success.json')
+              child: Lottie.asset('assets/success.json'),
             ),
             Container(
               width: double.infinity,
@@ -22,26 +22,24 @@ const SuccessBooked({ Key? key }) : super(key: key);
               child: const Text(
                 'Successfully Booked',
                 style: TextStyle(
+                  fontSize: 20,
                   fontWeight: FontWeight.bold,
-                  fontSize: 20
                 ),
               ),
             ),
             const Spacer(),
+            //back to home page
             Padding(
-              padding: const EdgeInsets.symmetric(
-                horizontal: 10,
-                vertical: 15
-              ),
+              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 15),
               child: Button(
                 width: double.infinity,
-                title: 'Back To Home Page',
+                title: 'Back to Home Page',
                 onPressed: () => Navigator.of(context).pushNamed('main'),
-                disable: false
+                disable: false,
               ),
             )
           ],
-        )
+        ),
       ),
     );
   }
